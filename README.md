@@ -1,7 +1,7 @@
 # Agentic AI Cloud Backend
 
 # Architecture diagram
-!(assets/Archtiture diagram final.jpg)
+![alt text](./assets/Archtiture diagram final.jpg)
 
 
 ```markdown
