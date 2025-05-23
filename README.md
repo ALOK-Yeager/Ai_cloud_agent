@@ -3,7 +3,8 @@
 ## Project Structure
 
 ```
-agentic-cloud-backend/
+Ai-cloud-agent/
+├── Frontend/
 ├── app/
 │   ├── api/
 │   │   └── v1/
