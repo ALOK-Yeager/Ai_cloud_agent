@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+rasa
+spacy
+openstacksdk
+sqlalchemy
+psycopg2-binary
+alembic
+pytest

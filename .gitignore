@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.env
+postgres_data/
+agentic-cloud-backend.zip
