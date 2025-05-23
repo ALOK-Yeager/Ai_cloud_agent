@@ -1,7 +1,11 @@
 # Agentic AI Cloud Backend
 
 # Architecture diagram
-![alt text](./assets/Archtiture diagram final.jpg)
+<img src="assets/Archtiture diagram final.jpg">
+
+
+# Workflow Diagram
+<img src="assets/Workflow Ai_agent.png">
 
 
 ```markdown
