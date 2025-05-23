@@ -1,6 +1,7 @@
 # Agentic AI Cloud Backend
 
-#Architecture diagram
+# Architecture diagram
+![Alt text for the image](assets/Archtiture diagram final.jpg "Arch")
 
 
 
