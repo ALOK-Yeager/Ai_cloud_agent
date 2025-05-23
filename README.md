@@ -1,5 +1,8 @@
 # Agentic AI Cloud Backend
 
+**Agentic AI for Cloud Operations** is an intelligent automation platform that empowers cloud operators to manage OpenStack infrastructure through natural language commands. Designed for DevOps teams and cloud administrators, this solution combines large language models (LLMs) with OpenStack's robust API ecosystem to enable intuitive infrastructure management. Simply describe your cloud operations in plain English (e.g., _"Create an S.4 VM named dev-box with 100GB storage"_), and the system automatically translates your intent into secure, validated OpenStack API calls - complete with confirmation workflows and real-time resource monitoring. Built with Python, FastAPI, and modern AI frameworks like LangChain, this enterprise-ready solution features JWT authentication, audit logging, and seamless integration with OpenStack services (Nova, Neutron, Cinder). Whether you're managing private clouds or hybrid infrastructure, Agentic AI brings human-like understanding to cloud operations while maintaining full API-level control and compliance.
+
+<img src="assets/Cloudops screenshot.png">
 # Architecture diagram
 <img src="assets/Archtiture diagram final.jpg">
 
