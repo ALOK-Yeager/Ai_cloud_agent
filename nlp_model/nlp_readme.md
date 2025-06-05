@@ -270,74 +270,8 @@ DEBUG:root:Received raw output: {"action":"create_vm",...}
 DEBUG:root:Validated schema: CommandSchema(...)
 ```
 
-## 10. Contribution Guidelines
 
-### Development Workflow
-
-```mermaid
-graph TD
-    A[Fork Repository] --> B[Create Feature Branch]
-    B --> C[Write Code]
-    C --> D[Add Tests]
-    D --> E[Run Test Suite]
-    E --> F[Update Documentation]
-    F --> G[Submit Pull Request]
-```
-
-### Coding Standards
-- Python: PEP-8 compliance
-- Documentation: Google-style docstrings
-- Testing: 90%+ coverage required
-- Validation: Pydantic schema-first design
-
-### Contribution Areas
-- Add new command patterns to fallback parser
-- Improve prompt engineering
-- Optimize error handling
-- Enhance performance monitoring
-- Add multilingual support
-
-## 11. Best Practices
-
-### Prompt Engineering Tips
-- **Be Explicit**: Clearly define expected output format
-- **Provide Examples**: Include sample conversions
-- **Limit Options**: Constrain possible actions and parameters
-- **Use Delimiters**: Separate instructions from input
-- **Iterate**: Test with varied phrasings
-
-### Performance Optimization
-
-**Caching**: Store common command translations
-
-```python
-from functools import lru_cache
-
-@lru_cache(maxsize=100)
-def cached_parse(command: str):
-    return parser.parse(command)
-```
-
-**Batching**: Process multiple commands in single request
-
-```python
-batch_prompt = f"""
-Convert these commands to JSON:
-1. Create small vm test-01
-2. Delete vm old-server
-...
-"""
-```
-
-**Asynchronous Processing**:
-
-```python
-async def async_parse(command: str):
-    loop = asyncio.get_event_loop()
-    return await loop.run_in_executor(None, parser.parse, command)
-```
-
-## 12. Future Enhancements
+## 11. Future Enhancements
 
 ### Roadmap
 - Multi-cloud provider support (AWS, Azure, GCP)
